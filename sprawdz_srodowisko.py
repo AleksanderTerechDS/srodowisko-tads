@@ -57,6 +57,7 @@ def main():
 
     print("-" * 66)
     print(f"Podsumowanie sprawdzen: {zgodne}/{len(sprawdzenia)}")
+    print(f"Raport sprawdzen srodowiska: {zgodne}/{len(sprawdzenia)}")
     return 0 if zgodne == len(sprawdzenia) else 1
 
 
